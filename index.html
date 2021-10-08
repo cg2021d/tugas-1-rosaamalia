@@ -6,11 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nampah - Tugas 1 - WebGL</title>
     <script src="main.js"></script>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body onload="main()">
-    <canvas id="myCanvas" width="800" height="800" style="border: 1px solid black;">
-        Peramban tidak mendukung kanvas HTML5
-    </canvas>
+    <div class="container">
+        <h4>Rosa Amalia - 0511194000106 - Grafika Komputer D</h4>
+        <canvas id="myCanvas" width="500" height="500" style="border: 1px solid black;">
+            Peramban tidak mendukung kanvas HTML5
+        </canvas>
+    </div>
 
     <script type="teks" id="vertexShaderCode">
         attribute vec2 a_Position;

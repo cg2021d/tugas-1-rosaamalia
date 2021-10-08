@@ -123,105 +123,87 @@ function main(){
         //biru lebih lebih tua lagi
         color_4: [0.218, 0.259, 0.520],
 
-        c: [-0.5+1, 0.5-0.5],
-        d: [-0.5+1, 0.7-0.5],
-        e: [-0.47078+1, 0.70244-0.5],
-        f: [-0.44036+1, 0.69583-0.5],
-        g: [-0.41626+1, 0.69145-0.5],
-        h: [-0.39435+1, 0.68269-0.5],
-        i: [-0.37099+1, 0.671-0.5],
-        j: [-0.34835+1, 0.6564-0.5],
-        k: [-0.33156+1, 0.64326-0.5],
-        l: [-0.31184+1, 0.62646-0.5],
-        m: [-0.29797+1, 0.6104-0.5],
-        n: [-0.28263+1, 0.58922-0.5],
-        o: [-0.2746+1, 0.56659-0.5],
-        p: [-0.26949+1, 0.54395-0.5],
-        q: [-0.2673+1, 0.51693-0.5],
-        r: [-0.26669+1, 0.49213-0.5],
-        s: [-0.26669+1, 0.49213-0.5],
-        t: [-0.27533+1, 0.43661-0.5],
-        u: [-0.28774+1, 0.41105-0.5],
-        v: [-0.30308+1, 0.38477-0.5],
-        w: [-0.31622+1, 0.36578-0.5],
-        z: [-0.3301+1, 0.34972-0.5],
-        a_1: [-0.34762+1, 0.33438-0.5],
-        b_1: [-0.37245+1, 0.31686-0.5],
-        c_1: [-0.4+1, 0.3-0.5],
-        d_1: [-0.4294+1, 0.28911-0.5],
-        e_1: [-0.4608+1, 0.28035-0.5],
-        f_1: [-0.49512+1, 0.2767-0.5],
-        g_1: [-0.5382+1, 0.27743-0.5],
-        h_1: [-0.57544+1, 0.28473-0.5],
-        i_1: [-0.61487+1, 0.2986-0.5],
-        j_1: [-0.64602+1, 0.31155-0.5],
-        k_1: [-0.67499+1, 0.33063-0.5],
-        l_1: [-0.69335+1, 0.35111-0.5],
-        m_1: [-0.70819+1, 0.37937-0.5],
-        n_1: [-0.7202+1, 0.40621-0.5],
-        o_1: [-0.72655+1, 0.43871-0.5],
-        p_1: [-0.72585+1, 0.47191-0.5],
-        q_1: [-0.72072+1, 0.50107-0.5],
-        r_1: [-0.71323+1, 0.52945-0.5],
-        s_1: [-0.70062+1, 0.55763-0.5],
-        t_1: [-0.68356+1, 0.58136-0.5],
-        u_1: [-0.66651+1, 0.6036-0.5],
-        v_1: [-0.645+1, 0.62511-0.5],
-        w_1: [-0.62276+1, 0.64365-0.5],
-        z_1: [-0.59977+1, 0.65996-0.5],
-        a_2: [-0.5753+1, 0.67405-0.5],
-        b_2: [-0.55157+1, 0.68517-0.5],
-        c_2: [-0.52684+1, 0.69439-0.5],
-        
+        //sisi dalam
+        f_4: [0.45927, 0.0058],
+        g_4: [0.45886, 0.20777],
+        h_4: [0.49638, 0.20492],
+        i_4: [0.52677, 0.19589],
+        j_4: [0.55894, 0.18088],
+        k_4: [0.58594, 0.16793],
+        l_4: [0.61246, 0.14807],
+        m_4: [0.63128, 0.12611],
+        n_4: [0.65, 0.1],
+        o_4: [0.66371, 0.07381],
+        p_4: [0.67612, 0.04403],
+        q_4: [0.68461, 0.01455],
+        r_4: [0.68761, -0.01543],
+        s_4: [0.68761, -0.04141],
+        t_4: [0.6837, -0.06848],
+        u_4: [0.67875, -0.09814],
+        v_4: [0.66557, -0.1278],
+        w_4: [0.65, -0.15],
+        z_4: [0.62569, -0.17615],
+        a_5: [0.6, -0.2],
+        b_5: [0.57104, -0.21987],
+        c_5: [0.52831, -0.23775],
+        d_5: [0.48857, -0.24471],
+        e_5: [0.44882, -0.24371],
+        f_5: [0.40709, -0.23477],
+        g_5: [0.36436, -0.21192],
+        h_5: [0.33157, -0.18509],
+        i_5: [0.3, -0.15],
+        j_5: [0.27394, -0.11355],
+        k_5: [0.25605, -0.0738],
+        l_5: [0.24413, -0.02809],
+        m_5: [0.24214, 0.01662],
+        n_5: [0.25307, 0.06531],
+        o_5: [0.27195, 0.10505],
+        p_5: [0.29481, 0.13586],
+        q_5: [0.32163, 0.16467],
+        r_5: [0.35343, 0.18455],
+        s_5: [0.39119, 0.20144],
+        t_5: [0.42497, 0.20839],
+
         //sisi luar
-        d_2: [-0.69002+1, 0.64736-0.5],
-        e_2: [-0.6698+1, 0.66623-0.5],
-        f_2: [-0.64756+1, 0.68308-0.5],
-        g_2: [-0.62195+1, 0.6979-0.5],
-        h_2: [-0.59162+1, 0.71273-0.5],
-        i_2: [-0.56129+1, 0.72284-0.5],
-        j_2: [-0.53299+1, 0.73092-0.5],
-        k_2: [-0.50199+1, 0.73699-0.5],
-        l_2: [-0.47571+1, 0.73834-0.5],
-        m_2: [-0.44605+1, 0.73766-0.5],
-        n_2: [-0.41707+1, 0.73429-0.5],
-        o_2: [-0.38877+1, 0.72553-0.5],
-        p_2: [-0.36181+1, 0.71677-0.5],
-        q_2: [-0.33418+1, 0.70397-0.5],
-        r_2: [-0.30992+1, 0.69049-0.5],
-        s_2: [-0.29105+1, 0.67499-0.5],
-        t_2: [-0.2742+1, 0.65814-0.5],
-        u_2: [-0.25668+1, 0.6359-0.5],
-        v_2: [-0.24252+1, 0.61029-0.5],
-        w_2: [-0.23125+1, 0.58615-0.5],
-        z_2: [-0.22245+1, 0.55434-0.5],
-        a_3: [-0.21907+1, 0.51509-0.5],
-        b_3: [-0.22448+1, 0.47448-0.5],
-        c_3: [-0.23666+1, 0.43658-0.5],
-        d_3: [-0.25235+1, 0.40541-0.5],
-        e_3: [-0.27154+1, 0.3773-0.5],
-        f_3: [-0.29072+1, 0.35366-0.5],
-        g_3: [-0.30901+1, 0.33448-0.5],
-        h_3: [-0.33399+1, 0.31663-0.5],
-        i_3: [-0.36+1, 0.3-0.5],
-        j_3: [-0.38842+1, 0.2854-0.5],
-        k_3: [-0.4201+1, 0.27336-0.5],
-        l_3: [-0.45623+1, 0.26221-0.5],
-        m_3: [-0.49408+1, 0.25704-0.5],
-        n_3: [-0.52751+1, 0.2561-0.5],
-        o_3: [-0.56755+1, 0.25739-0.5],
-        p_3: [-0.60768+1, 0.26626-0.5],
-        q_3: [-0.65202+1, 0.28352-0.5],
-        r_3: [-0.69075+1, 0.30732-0.5],
-        s_3: [-0.72528+1, 0.33859-0.5],
-        t_3: [-0.74535+1, 0.36892-0.5],
-        u_3: [-0.76+1, 0.4-0.5],
-        v_3: [-0.76962+1, 0.43659-0.5],
-        w_3: [-0.77288+1, 0.47299-0.5],
-        z_3: [-0.76915+1, 0.50519-0.5],
-        a_4: [-0.75721+1, 0.54452-0.5],
-        b_4: [-0.73897+1, 0.58257-0.5],
-        c_4: [-0.71916+1, 0.61227-0.5]
+        u_5: [0.442, 0.24527],
+        v_5: [0.48344, 0.24287],
+        w_5: [0.52307, 0.23506],
+        z_5: [0.5579, 0.22005],
+        a_6: [0.58913, 0.20444],
+        b_6: [0.62035, 0.18702],
+        c_6: [0.64738, 0.1654],
+        d_6: [0.66959, 0.14138],
+        e_6: [0.68941, 0.11496],
+        f_6: [0.70743, 0.08374],
+        g_6: [0.71944, 0.05191],
+        h_6: [0.73222, 0.01485],
+        i_6: [0.73657, -0.02067],
+        j_6: [0.73512, -0.05329],
+        k_6: [0.7257, -0.09752],
+        l_6: [0.71555, -0.12942],
+        m_6: [0.70032, -0.15769],
+        n_6: [0.67422, -0.18669],
+        o_6: [0.6387, -0.21786],
+        p_6: [0.61043, -0.23381],
+        q_6: [0.56548, -0.24903],
+        r_6: [0.51618, -0.25991],
+        s_6: [0.46761, -0.25846],
+        t_6: [0.42411, -0.25048],
+        u_6: [0.37481, -0.23453],
+        v_6: [0.33567, -0.21206],
+        w_6: [0.29942, -0.18959],
+        z_6: [0.26244, -0.14945],
+        a_7: [0.23574, -0.10727],
+        b_7: [0.21545, -0.05761],
+        c_7: [0.20584, -0.00742],
+        d_7: [0.20686, 0.04906],
+        e_7: [0.22084, 0.10031],
+        f_7: [0.25, 0.15],
+        g_7: [0.2783, 0.18211],
+        h_7: [0.31816, 0.21317],
+        i_7: [0.36113, 0.2318],
+        j_7: [0.40254, 0.24164]
+        
     }
 
     var vertices = [
@@ -804,583 +786,463 @@ function main(){
         ...titik_1.v_1, ...titik_1.color_4, //2175
 
         //kanan dalam
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.d, ...titik_2.color_2,
-        ...titik_2.e, ...titik_2.color_2, //15
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.g_4, ...titik_2.color_2,
+        ...titik_2.h_4, ...titik_2.color_2, //2190
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.e, ...titik_2.color_2,
-        ...titik_2.f, ...titik_2.color_2, //30
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.h_4, ...titik_2.color_2,
+        ...titik_2.i_4, ...titik_2.color_2, //2205
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.f, ...titik_2.color_2,
-        ...titik_2.g, ...titik_2.color_2, //45
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.i_4, ...titik_2.color_2,
+        ...titik_2.j_4, ...titik_2.color_2, //2220
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.g, ...titik_2.color_2,
-        ...titik_2.h, ...titik_2.color_2, //60
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.j_4, ...titik_2.color_2,
+        ...titik_2.k_4, ...titik_2.color_2, //2235
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.h, ...titik_2.color_2,
-        ...titik_2.i, ...titik_2.color_2, //75
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.k_4, ...titik_2.color_2,
+        ...titik_2.l_4, ...titik_2.color_2, //2250
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.i, ...titik_2.color_2,
-        ...titik_2.j, ...titik_2.color_2, //90
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.l_4, ...titik_2.color_2,
+        ...titik_2.m_4, ...titik_2.color_2, //2265
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.j, ...titik_2.color_2,
-        ...titik_2.k, ...titik_2.color_2, //105
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.m_4, ...titik_2.color_2,
+        ...titik_2.n_4, ...titik_2.color_2, //2280
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.k, ...titik_2.color_2,
-        ...titik_2.l, ...titik_2.color_2, //120
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.n_4, ...titik_2.color_2,
+        ...titik_2.o_4, ...titik_2.color_2, //2295
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.l, ...titik_2.color_2,
-        ...titik_2.m, ...titik_2.color_2, //135
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.o_4, ...titik_2.color_2,
+        ...titik_2.p_4, ...titik_2.color_2, //2310
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.m, ...titik_2.color_2,
-        ...titik_2.n, ...titik_2.color_2, //150
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.p_4, ...titik_2.color_2,
+        ...titik_2.q_4, ...titik_2.color_2, //2325
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.n, ...titik_2.color_2,
-        ...titik_2.o, ...titik_2.color_2, //165
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.q_4, ...titik_2.color_2,
+        ...titik_2.r_4, ...titik_2.color_2, //2340
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.o, ...titik_2.color_2,
-        ...titik_2.p, ...titik_2.color_2, //180
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.r_4, ...titik_2.color_2,
+        ...titik_2.s_4, ...titik_2.color_2, //2355
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.p, ...titik_2.color_2,
-        ...titik_2.q, ...titik_2.color_2, //195
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.s_4, ...titik_2.color_2,
+        ...titik_2.t_4, ...titik_2.color_2, //2370
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.q, ...titik_2.color_2,
-        ...titik_2.r, ...titik_2.color_2, //210
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.t_4, ...titik_2.color_2,
+        ...titik_2.u_4, ...titik_2.color_2, //2385
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.r, ...titik_2.color_2,
-        ...titik_2.s, ...titik_2.color_2, //225
-        
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.s, ...titik_2.color_2,
-        ...titik_2.t, ...titik_2.color_2, //240
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.u_4, ...titik_2.color_2,
+        ...titik_2.v_4, ...titik_2.color_2, //2400
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.t, ...titik_2.color_2,
-        ...titik_2.u, ...titik_2.color_2, //255
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.v_4, ...titik_2.color_2,
+        ...titik_2.w_4, ...titik_2.color_2, //2415
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.u, ...titik_2.color_2,
-        ...titik_2.v, ...titik_2.color_2, //270
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.w_4, ...titik_2.color_2,
+        ...titik_2.z_4, ...titik_2.color_2, //2430
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.v, ...titik_2.color_2,
-        ...titik_2.w, ...titik_2.color_2, //285
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.z_4, ...titik_2.color_2,
+        ...titik_2.a_5, ...titik_2.color_2, //2445
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.w, ...titik_2.color_2,
-        ...titik_2.z, ...titik_2.color_2, //300
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.a_5, ...titik_2.color_2,
+        ...titik_2.b_5, ...titik_2.color_2, //2460
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.z, ...titik_2.color_2,
-        ...titik_2.a_1, ...titik_2.color_2, //315
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.b_5, ...titik_2.color_2,
+        ...titik_2.c_5, ...titik_2.color_2, //2475
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.a_1, ...titik_2.color_2,
-        ...titik_2.b_1, ...titik_2.color_2, //330
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.c_5, ...titik_2.color_2,
+        ...titik_2.d_5, ...titik_2.color_2, //2490
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.b_1, ...titik_2.color_2,
-        ...titik_2.c_1, ...titik_2.color_2, //345
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.d_5, ...titik_2.color_2,
+        ...titik_2.e_5, ...titik_2.color_2, //2505
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.c_1, ...titik_2.color_2,
-        ...titik_2.d_1, ...titik_2.color_2, //360
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.e_5, ...titik_2.color_2,
+        ...titik_2.f_5, ...titik_2.color_2, //2520
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.d_1, ...titik_2.color_2,
-        ...titik_2.e_1, ...titik_2.color_2, //375
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.f_5, ...titik_2.color_2,
+        ...titik_2.g_5, ...titik_2.color_2, //2535
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.e_1, ...titik_2.color_2,
-        ...titik_2.f_1, ...titik_2.color_2, //390
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.g_5, ...titik_2.color_2,
+        ...titik_2.h_5, ...titik_2.color_2, //2550
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.f_1, ...titik_2.color_2,
-        ...titik_2.g_1, ...titik_2.color_2, //405
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.h_5, ...titik_2.color_2,
+        ...titik_2.i_5, ...titik_2.color_2, //2565
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.g_1, ...titik_2.color_2,
-        ...titik_2.h_1, ...titik_2.color_2, //420
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.i_5, ...titik_2.color_2,
+        ...titik_2.j_5, ...titik_2.color_2, //2580
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.h_1, ...titik_2.color_2,
-        ...titik_2.i_1, ...titik_2.color_2, //435
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.j_5, ...titik_2.color_2,
+        ...titik_2.k_5, ...titik_2.color_2, //2595
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.i_1, ...titik_2.color_2,
-        ...titik_2.j_1, ...titik_2.color_2, //450
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.k_5, ...titik_2.color_2,
+        ...titik_2.l_5, ...titik_2.color_2, //2610
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.j_1, ...titik_2.color_2,
-        ...titik_2.k_1, ...titik_2.color_2, //465
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.l_5, ...titik_2.color_2,
+        ...titik_2.m_5, ...titik_2.color_2, //2625
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.k_1, ...titik_2.color_2,
-        ...titik_2.l_1, ...titik_2.color_2, //480
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.m_5, ...titik_2.color_2,
+        ...titik_2.n_5, ...titik_2.color_2, //2640
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.l_1, ...titik_2.color_2,
-        ...titik_2.m_1, ...titik_2.color_2, //495
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.n_5, ...titik_2.color_2,
+        ...titik_2.o_5, ...titik_2.color_2, //2655
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.m_1, ...titik_2.color_2,
-        ...titik_2.n_1, ...titik_2.color_2, //510
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.o_5, ...titik_2.color_2,
+        ...titik_2.p_5, ...titik_2.color_2, //2670
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.n_1, ...titik_2.color_2,
-        ...titik_2.o_1, ...titik_2.color_2, //525
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.p_5, ...titik_2.color_2,
+        ...titik_2.q_5, ...titik_2.color_2, //2685
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.o_1, ...titik_2.color_2,
-        ...titik_2.p_1, ...titik_2.color_2, //540
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.q_5, ...titik_2.color_2,
+        ...titik_2.r_5, ...titik_2.color_2, //2700
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.p_1, ...titik_2.color_2,
-        ...titik_2.q_1, ...titik_2.color_2, //555
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.r_5, ...titik_2.color_2,
+        ...titik_2.s_5, ...titik_2.color_2, //2715
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.q_1, ...titik_2.color_2,
-        ...titik_2.r_1, ...titik_2.color_2, //570
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.s_5, ...titik_2.color_2,
+        ...titik_2.t_5, ...titik_2.color_2, //2730
 
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.r_1, ...titik_2.color_2,
-        ...titik_2.s_1, ...titik_2.color_2, //585
-
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.s_1, ...titik_2.color_2,
-        ...titik_2.t_1, ...titik_2.color_2, //600
-
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.t_1, ...titik_2.color_2,
-        ...titik_2.u_1, ...titik_2.color_2, //615
-
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.u_1, ...titik_2.color_2,
-        ...titik_2.v_1, ...titik_2.color_2, //630
-
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.v_1, ...titik_2.color_2,
-        ...titik_2.w_1, ...titik_2.color_2, //645
-
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.w_1, ...titik_2.color_2,
-        ...titik_2.z_1, ...titik_2.color_2, //660
-
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.z_1, ...titik_2.color_2,
-        ...titik_2.a_2, ...titik_2.color_2, //675
-
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.a_2, ...titik_2.color_2,
-        ...titik_2.b_2, ...titik_2.color_2, //690
-
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.b_2, ...titik_2.color_2,
-        ...titik_2.c_2, ...titik_2.color_2, //705
-
-        ...titik_2.c, ...titik_2.color_1,
-        ...titik_2.c_2, ...titik_2.color_2,
-        ...titik_2.d, ...titik_2.color_2, //720
+        ...titik_2.f_4, ...titik_2.color_1,
+        ...titik_2.t_5, ...titik_2.color_2,
+        ...titik_2.g_4, ...titik_2.color_2, //2745
 
         //kanan luar
-        ...titik_2.d_2, ...titik_2.color_3,
-        ...titik_2.v_1, ...titik_2.color_4,
-        ...titik_2.e_2, ...titik_2.color_3, //735
-
-        ...titik_2.e_2, ...titik_2.color_3,
-        ...titik_2.w_1, ...titik_2.color_4,
-        ...titik_2.f_2, ...titik_2.color_3, //750
-
-        ...titik_2.f_2, ...titik_2.color_3,
-        ...titik_2.z_1, ...titik_2.color_4,
-        ...titik_2.g_2, ...titik_2.color_3, //765
-
-        ...titik_2.g_2, ...titik_2.color_3,
-        ...titik_2.a_2, ...titik_2.color_4,
-        ...titik_2.h_2, ...titik_2.color_3, //780
-
-        ...titik_2.h_2, ...titik_2.color_3,
-        ...titik_2.b_2, ...titik_2.color_4,
-        ...titik_2.i_2, ...titik_2.color_3, //795
-
-        ...titik_2.i_2, ...titik_2.color_3,
-        ...titik_2.c_2, ...titik_2.color_4,
-        ...titik_2.j_2, ...titik_2.color_3, //810
-
-        ...titik_2.j_2, ...titik_2.color_3,
-        ...titik_2.d, ...titik_2.color_4,
-        ...titik_2.k_2, ...titik_2.color_3, //825
-
-        ...titik_2.k_2, ...titik_2.color_3,
-        ...titik_2.e, ...titik_2.color_4,
-        ...titik_2.l_2, ...titik_2.color_3, //840
-
-        ...titik_2.l_2, ...titik_2.color_3,
-        ...titik_2.f, ...titik_2.color_4,
-        ...titik_2.m_2, ...titik_2.color_3, //855
-
-        ...titik_2.m_2, ...titik_2.color_3,
-        ...titik_2.g, ...titik_2.color_4,
-        ...titik_2.n_2, ...titik_2.color_3, //870
-
-        ...titik_2.n_2, ...titik_2.color_3,
-        ...titik_2.h, ...titik_2.color_4,
-        ...titik_2.o_2, ...titik_2.color_3, //885
-
-        ...titik_2.o_2, ...titik_2.color_3,
-        ...titik_2.i, ...titik_2.color_4,
-        ...titik_2.p_2, ...titik_2.color_3, //900
-
-        ...titik_2.p_2, ...titik_2.color_3,
-        ...titik_2.j, ...titik_2.color_4,
-        ...titik_2.q_2, ...titik_2.color_3, //915
-
-        ...titik_2.q_2, ...titik_2.color_3,
-        ...titik_2.k, ...titik_2.color_4,
-        ...titik_2.r_2, ...titik_2.color_3, //930
-
-        ...titik_2.r_2, ...titik_2.color_3,
-        ...titik_2.l, ...titik_2.color_4,
-        ...titik_2.s_2, ...titik_2.color_3, //945
-
-        ...titik_2.s_2, ...titik_2.color_3,
-        ...titik_2.m, ...titik_2.color_4,
-        ...titik_2.t_2, ...titik_2.color_3, //960
-
-        ...titik_2.t_2, ...titik_2.color_3,
-        ...titik_2.n, ...titik_2.color_4,
-        ...titik_2.u_2, ...titik_2.color_3, //975
-
-        ...titik_2.u_2, ...titik_2.color_3,
-        ...titik_2.o, ...titik_2.color_4,
-        ...titik_2.v_2, ...titik_2.color_3, //990
-
-        ...titik_2.v_2, ...titik_2.color_3,
-        ...titik_2.p, ...titik_2.color_4,
-        ...titik_2.w_2, ...titik_2.color_3, //1005
-
-        ...titik_2.w_2, ...titik_2.color_3,
-        ...titik_2.q, ...titik_2.color_4,
-        ...titik_2.z_2, ...titik_2.color_3, //1020
-
-        ...titik_2.z_2, ...titik_2.color_3,
-        ...titik_2.r, ...titik_2.color_4,
-        ...titik_2.a_3, ...titik_2.color_3, //1035
-
-        ...titik_2.a_3, ...titik_2.color_3,
-        ...titik_2.s, ...titik_2.color_4,
-        ...titik_2.b_3, ...titik_2.color_3, //1050
-
-        ...titik_2.b_3, ...titik_2.color_3,
-        ...titik_2.t, ...titik_2.color_4,
-        ...titik_2.c_3, ...titik_2.color_3, //1065
-
-        ...titik_2.c_3, ...titik_2.color_3,
-        ...titik_2.u, ...titik_2.color_4,
-        ...titik_2.d_3, ...titik_2.color_3, //1080
-
-        ...titik_2.d_3, ...titik_2.color_3,
-        ...titik_2.v, ...titik_2.color_4,
-        ...titik_2.e_3, ...titik_2.color_3, //1095
-
-        ...titik_2.e_3, ...titik_2.color_3,
-        ...titik_2.w, ...titik_2.color_4,
-        ...titik_2.f_3, ...titik_2.color_3, //1110
-
-        ...titik_2.f_3, ...titik_2.color_3,
-        ...titik_2.z, ...titik_2.color_4,
-        ...titik_2.g_3, ...titik_2.color_3, //1125
-
-        ...titik_2.g_3, ...titik_2.color_3,
-        ...titik_2.a_1, ...titik_2.color_4,
-        ...titik_2.h_3, ...titik_2.color_3, //1140
-
-        ...titik_2.h_3, ...titik_2.color_3,
-        ...titik_2.b_1, ...titik_2.color_4,
-        ...titik_2.i_3, ...titik_2.color_3, //1155
-
-        ...titik_2.i_3, ...titik_2.color_3,
-        ...titik_2.c_1, ...titik_2.color_4,
-        ...titik_2.j_3, ...titik_2.color_3, //1170
-
-        ...titik_2.j_3, ...titik_2.color_3,
-        ...titik_2.d_1, ...titik_2.color_4,
-        ...titik_2.k_3, ...titik_2.color_3, //1185
-
-        ...titik_2.k_3, ...titik_2.color_3,
-        ...titik_2.e_1, ...titik_2.color_4,
-        ...titik_2.l_3, ...titik_2.color_3, //1200
-
-        ...titik_2.l_3, ...titik_2.color_3,
-        ...titik_2.f_1, ...titik_2.color_4,
-        ...titik_2.m_3, ...titik_2.color_3, //1215
-
-        ...titik_2.m_3, ...titik_2.color_3,
-        ...titik_2.g_1, ...titik_2.color_4,
-        ...titik_2.n_3, ...titik_2.color_3, //1230
-
-        ...titik_2.n_3, ...titik_2.color_3,
-        ...titik_2.h_1, ...titik_2.color_4,
-        ...titik_2.o_3, ...titik_2.color_3, //1245
-
-        ...titik_2.o_3, ...titik_2.color_3,
-        ...titik_2.i_1, ...titik_2.color_4,
-        ...titik_2.p_3, ...titik_2.color_3, //1260
-
-        ...titik_2.p_3, ...titik_2.color_3,
-        ...titik_2.j_1, ...titik_2.color_4,
-        ...titik_2.q_3, ...titik_2.color_3, //1275
-
-        ...titik_2.q_3, ...titik_2.color_3,
-        ...titik_2.k_1, ...titik_2.color_4,
-        ...titik_2.r_3, ...titik_2.color_3, //1290
-
-        ...titik_2.r_3, ...titik_2.color_3,
-        ...titik_2.l_1, ...titik_2.color_4,
-        ...titik_2.s_3, ...titik_2.color_3, //1305
-
-        ...titik_2.s_3, ...titik_2.color_3,
-        ...titik_2.m_1, ...titik_2.color_4,
-        ...titik_2.t_3, ...titik_2.color_3, //1320
-
-        ...titik_2.t_3, ...titik_2.color_3,
-        ...titik_2.n_1, ...titik_2.color_4,
-        ...titik_2.u_3, ...titik_2.color_3, //1335
-
-        ...titik_2.u_3, ...titik_2.color_3,
-        ...titik_2.o_1, ...titik_2.color_4,
-        ...titik_2.v_3, ...titik_2.color_3, //1350
-
-        ...titik_2.v_3, ...titik_2.color_3,
-        ...titik_2.p_1, ...titik_2.color_4,
-        ...titik_2.w_3, ...titik_2.color_3, //1365
-
-        ...titik_2.w_3, ...titik_2.color_3,
-        ...titik_2.q_1, ...titik_2.color_4,
-        ...titik_2.z_3, ...titik_2.color_3, //1380
-
-        ...titik_2.z_3, ...titik_2.color_3,
-        ...titik_2.r_1, ...titik_2.color_4,
-        ...titik_2.a_4, ...titik_2.color_3, //1395
-
-        ...titik_2.a_4, ...titik_2.color_3,
-        ...titik_2.s_1, ...titik_2.color_4,
-        ...titik_2.b_4, ...titik_2.color_3, //1410
-
-        ...titik_2.b_4, ...titik_2.color_3,
-        ...titik_2.t_1, ...titik_2.color_4,
-        ...titik_2.c_4, ...titik_2.color_3, //1425
-
-        ...titik_2.c_4, ...titik_2.color_3,
-        ...titik_2.u_1, ...titik_2.color_4,
-        ...titik_2.d_2, ...titik_2.color_3, //1440
-
-        ...titik_2.v_1, ...titik_2.color_4,
-        ...titik_2.e_2, ...titik_2.color_3,
-        ...titik_2.w_1, ...titik_2.color_4, //1455
-
-        ...titik_2.w_1, ...titik_2.color_4,
-        ...titik_2.f_2, ...titik_2.color_3,
-        ...titik_2.z_1, ...titik_2.color_4, //1470
-
-        ...titik_2.z_1, ...titik_2.color_4,
-        ...titik_2.g_2, ...titik_2.color_3,
-        ...titik_2.a_2, ...titik_2.color_4, //1485
-
-        ...titik_2.a_2, ...titik_2.color_4,
-        ...titik_2.h_2, ...titik_2.color_3,
-        ...titik_2.b_2, ...titik_2.color_4, //1500
-
-        ...titik_2.b_2, ...titik_2.color_4,
-        ...titik_2.i_2, ...titik_2.color_3,
-        ...titik_2.c_2, ...titik_2.color_4, //1515
-
-        ...titik_2.c_2, ...titik_2.color_4,
-        ...titik_2.j_2, ...titik_2.color_3,
-        ...titik_2.d, ...titik_2.color_4, //1530
-
-        ...titik_2.d, ...titik_2.color_4,
-        ...titik_2.k_2, ...titik_2.color_3,
-        ...titik_2.e, ...titik_2.color_4, //1545
-
-        ...titik_2.e, ...titik_2.color_4,
-        ...titik_2.l_2, ...titik_2.color_3,
-        ...titik_2.f, ...titik_2.color_4, //1560
-
-        ...titik_2.f, ...titik_2.color_4,
-        ...titik_2.m_2, ...titik_2.color_3,
-        ...titik_2.g, ...titik_2.color_4, //1575
-
-        ...titik_2.g, ...titik_2.color_4,
-        ...titik_2.n_2, ...titik_2.color_3,
-        ...titik_2.h, ...titik_2.color_4, //1590
-
-        ...titik_2.h, ...titik_2.color_4,
-        ...titik_2.o_2, ...titik_2.color_3,
-        ...titik_2.i, ...titik_2.color_4, //1605
-
-        ...titik_2.i, ...titik_2.color_4,
-        ...titik_2.p_2, ...titik_2.color_3,
-        ...titik_2.j, ...titik_2.color_4, //1620
-
-        ...titik_2.j, ...titik_2.color_4,
-        ...titik_2.q_2, ...titik_2.color_3,
-        ...titik_2.k, ...titik_2.color_4, //1635
-
-        ...titik_2.k, ...titik_2.color_4,
-        ...titik_2.r_2, ...titik_2.color_3,
-        ...titik_2.l, ...titik_2.color_4, //1650
-
-        ...titik_2.l, ...titik_2.color_4,
-        ...titik_2.s_2, ...titik_2.color_3,
-        ...titik_2.m, ...titik_2.color_4, //1665
-
-        ...titik_2.m, ...titik_2.color_4,
-        ...titik_2.t_2, ...titik_2.color_3,
-        ...titik_2.n, ...titik_2.color_4, //1680
-
-        ...titik_2.n, ...titik_2.color_4,
-        ...titik_2.u_2, ...titik_2.color_3,
-        ...titik_2.o, ...titik_2.color_4, //1695
-
-        ...titik_2.o, ...titik_2.color_4,
-        ...titik_2.v_2, ...titik_2.color_3,
-        ...titik_2.p, ...titik_2.color_4, //1710
-
-        ...titik_2.p, ...titik_2.color_4,
-        ...titik_2.w_2, ...titik_2.color_3,
-        ...titik_2.q, ...titik_2.color_4, //1725
-
-        ...titik_2.q, ...titik_2.color_4,
-        ...titik_2.z_2, ...titik_2.color_3,
-        ...titik_2.r, ...titik_2.color_4, //1740
-
-        ...titik_2.r, ...titik_2.color_4,
-        ...titik_2.a_3, ...titik_2.color_3,
-        ...titik_2.s, ...titik_2.color_4, //1755
-
-        ...titik_2.s, ...titik_2.color_4,
-        ...titik_2.b_3, ...titik_2.color_3,
-        ...titik_2.t, ...titik_2.color_4, //1770
-
-        ...titik_2.t, ...titik_2.color_4,
-        ...titik_2.c_3, ...titik_2.color_3,
-        ...titik_2.u, ...titik_2.color_4, //1785
-
-        ...titik_2.u, ...titik_2.color_4,
-        ...titik_2.d_3, ...titik_2.color_3,
-        ...titik_2.v, ...titik_2.color_4, //1800
-
-        ...titik_2.v, ...titik_2.color_4,
-        ...titik_2.e_3, ...titik_2.color_3,
-        ...titik_2.w, ...titik_2.color_4, //1815
-
-        ...titik_2.w, ...titik_2.color_4,
-        ...titik_2.f_3, ...titik_2.color_3,
-        ...titik_2.z, ...titik_2.color_4, //1830
-
-        ...titik_2.z, ...titik_2.color_4,
-        ...titik_2.g_3, ...titik_2.color_3,
-        ...titik_2.a_1, ...titik_2.color_4, //1845
-
-        ...titik_2.a_1, ...titik_2.color_4,
-        ...titik_2.h_3, ...titik_2.color_3,
-        ...titik_2.b_1, ...titik_2.color_4, //1860
-
-        ...titik_2.b_1, ...titik_2.color_4,
-        ...titik_2.i_3, ...titik_2.color_3,
-        ...titik_2.c_1, ...titik_2.color_4, //1875
-
-        ...titik_2.c_1, ...titik_2.color_4,
-        ...titik_2.j_3, ...titik_2.color_3,
-        ...titik_2.d_1, ...titik_2.color_4, //1890
-
-        ...titik_2.d_1, ...titik_2.color_4,
-        ...titik_2.k_3, ...titik_2.color_3,
-        ...titik_2.e_1, ...titik_2.color_4, //1905
-
-        ...titik_2.e_1, ...titik_2.color_4,
-        ...titik_2.l_3, ...titik_2.color_3,
-        ...titik_2.f_1, ...titik_2.color_4, //1920
-
-        ...titik_2.f_1, ...titik_2.color_4,
-        ...titik_2.m_3, ...titik_2.color_3,
-        ...titik_2.g_1, ...titik_2.color_4, //1935
-
-        ...titik_2.g_1, ...titik_2.color_4,
-        ...titik_2.n_3, ...titik_2.color_3,
-        ...titik_2.h_1, ...titik_2.color_4, //1950
-
-        ...titik_2.h_1, ...titik_2.color_4,
-        ...titik_2.o_3, ...titik_2.color_3,
-        ...titik_2.i_1, ...titik_2.color_4, //1965
-
-        ...titik_2.i_1, ...titik_2.color_4,
-        ...titik_2.p_3, ...titik_2.color_3,
-        ...titik_2.j_1, ...titik_2.color_4, //1980
-
-        ...titik_2.j_1, ...titik_2.color_4,
-        ...titik_2.q_3, ...titik_2.color_3,
-        ...titik_2.k_1, ...titik_2.color_4, //1995
-
-        ...titik_2.k_1, ...titik_2.color_4,
-        ...titik_2.r_3, ...titik_2.color_3,
-        ...titik_2.l_1, ...titik_2.color_4, //2010
-
-        ...titik_2.l_1, ...titik_2.color_4,
-        ...titik_2.s_3, ...titik_2.color_3,
-        ...titik_2.m_1, ...titik_2.color_4, //2025
-
-        ...titik_2.m_1, ...titik_2.color_4,
-        ...titik_2.t_3, ...titik_2.color_3,
-        ...titik_2.n_1, ...titik_2.color_4, //2040
-
-        ...titik_2.n_1, ...titik_2.color_4,
-        ...titik_2.u_3, ...titik_2.color_3,
-        ...titik_2.o_1, ...titik_2.color_4, //2055
-
-        ...titik_2.o_1, ...titik_2.color_4,
-        ...titik_2.v_3, ...titik_2.color_3,
-        ...titik_2.p_1, ...titik_2.color_4, //2070
-
-        ...titik_2.p_1, ...titik_2.color_4,
-        ...titik_2.w_3, ...titik_2.color_3,
-        ...titik_2.q_1, ...titik_2.color_4, //2085
-
-        ...titik_2.q_1, ...titik_2.color_4,
-        ...titik_2.z_3, ...titik_2.color_3,
-        ...titik_2.r_1, ...titik_2.color_4, //2100
-
-        ...titik_2.r_1, ...titik_2.color_4,
-        ...titik_2.a_4, ...titik_2.color_3,
-        ...titik_2.s_1, ...titik_2.color_4, //2115
-
-        ...titik_2.s_1, ...titik_2.color_4,
-        ...titik_2.b_4, ...titik_2.color_3,
-        ...titik_2.t_1, ...titik_2.color_4, //2145
-
-        ...titik_2.t_1, ...titik_2.color_4,
-        ...titik_2.c_4, ...titik_2.color_3,
-        ...titik_2.u_1, ...titik_2.color_4, //2160
-
-        ...titik_2.u_1, ...titik_2.color_4,
-        ...titik_2.d_2, ...titik_2.color_3,
-        ...titik_2.v_1, ...titik_1.color_4 //2175
-    ];
+        ...titik_2.u_5, ...titik_2.color_3,
+        ...titik_2.g_4, ...titik_2.color_4,
+        ...titik_2.v_5, ...titik_2.color_3, //2760
+
+        ...titik_2.v_5, ...titik_2.color_3,
+        ...titik_2.h_4, ...titik_2.color_4,
+        ...titik_2.w_5, ...titik_2.color_3, //2775
+
+        ...titik_2.w_5, ...titik_2.color_3,
+        ...titik_2.i_4, ...titik_2.color_4,
+        ...titik_2.z_5, ...titik_2.color_3, //2790
+
+        ...titik_2.z_5, ...titik_2.color_3,
+        ...titik_2.j_4, ...titik_2.color_4,
+        ...titik_2.a_6, ...titik_2.color_3, //2805
+
+        ...titik_2.a_6, ...titik_2.color_3,
+        ...titik_2.k_4, ...titik_2.color_4,
+        ...titik_2.b_6, ...titik_2.color_3, //2820
+
+        ...titik_2.b_6, ...titik_2.color_3,
+        ...titik_2.l_4, ...titik_2.color_4,
+        ...titik_2.c_6, ...titik_2.color_3, //285
+
+        ...titik_2.c_6, ...titik_2.color_3,
+        ...titik_2.m_4, ...titik_2.color_4,
+        ...titik_2.d_6, ...titik_2.color_3, //2850
+
+        ...titik_2.d_6, ...titik_2.color_3,
+        ...titik_2.n_4, ...titik_2.color_4,
+        ...titik_2.e_6, ...titik_2.color_3, //2865
+
+        ...titik_2.e_6, ...titik_2.color_3,
+        ...titik_2.o_4, ...titik_2.color_4,
+        ...titik_2.f_6, ...titik_2.color_3, //2880
+
+        ...titik_2.f_6, ...titik_2.color_3,
+        ...titik_2.p_4, ...titik_2.color_4,
+        ...titik_2.g_6, ...titik_2.color_3, //2895
+
+        ...titik_2.g_6, ...titik_2.color_3,
+        ...titik_2.q_4, ...titik_2.color_4,
+        ...titik_2.h_6, ...titik_2.color_3, //2910
+
+        ...titik_2.h_6, ...titik_2.color_3,
+        ...titik_2.r_4, ...titik_2.color_4,
+        ...titik_2.i_6, ...titik_2.color_3, //2925
+
+        ...titik_2.i_6, ...titik_2.color_3,
+        ...titik_2.s_4, ...titik_2.color_4,
+        ...titik_2.j_6, ...titik_2.color_3, //2940
+
+        ...titik_2.j_6, ...titik_2.color_3,
+        ...titik_2.t_4, ...titik_2.color_4,
+        ...titik_2.k_6, ...titik_2.color_3, //2955
+
+        ...titik_2.k_6, ...titik_2.color_3,
+        ...titik_2.u_4, ...titik_2.color_4,
+        ...titik_2.l_6, ...titik_2.color_3, //2970
+
+        ...titik_2.l_6, ...titik_2.color_3,
+        ...titik_2.v_4, ...titik_2.color_4,
+        ...titik_2.m_6, ...titik_2.color_3, //2985
+
+        ...titik_2.m_6, ...titik_2.color_3,
+        ...titik_2.w_4, ...titik_2.color_4,
+        ...titik_2.n_6, ...titik_2.color_3, //3000
+
+        ...titik_2.n_6, ...titik_2.color_3,
+        ...titik_2.z_4, ...titik_2.color_4,
+        ...titik_2.o_6, ...titik_2.color_3, //3015
+
+        ...titik_2.o_6, ...titik_2.color_3,
+        ...titik_2.a_5, ...titik_2.color_4,
+        ...titik_2.p_6, ...titik_2.color_3, //3030
+
+        ...titik_2.p_6, ...titik_2.color_3,
+        ...titik_2.b_5, ...titik_2.color_4,
+        ...titik_2.q_6, ...titik_2.color_3, //3045
+
+        ...titik_2.q_6, ...titik_2.color_3,
+        ...titik_2.c_5, ...titik_2.color_4,
+        ...titik_2.r_6, ...titik_2.color_3, //3060
+
+        ...titik_2.r_6, ...titik_2.color_3,
+        ...titik_2.d_5, ...titik_2.color_4,
+        ...titik_2.s_6, ...titik_2.color_3, //3075
+
+        ...titik_2.s_6, ...titik_2.color_3,
+        ...titik_2.e_5, ...titik_2.color_4,
+        ...titik_2.t_6, ...titik_2.color_3, //3090
+
+        ...titik_2.t_6, ...titik_2.color_3,
+        ...titik_2.f_5, ...titik_2.color_4,
+        ...titik_2.u_6, ...titik_2.color_3, //3105
+
+        ...titik_2.u_6, ...titik_2.color_3,
+        ...titik_2.g_5, ...titik_2.color_4,
+        ...titik_2.v_6, ...titik_2.color_3, //3120
+
+        ...titik_2.v_6, ...titik_2.color_3,
+        ...titik_2.h_5, ...titik_2.color_4,
+        ...titik_2.w_6, ...titik_2.color_3, //3135
+
+        ...titik_2.w_6, ...titik_2.color_3,
+        ...titik_2.i_5, ...titik_2.color_4,
+        ...titik_2.z_6, ...titik_2.color_3, //3150
+
+        ...titik_2.z_6, ...titik_2.color_3,
+        ...titik_2.j_5, ...titik_2.color_4,
+        ...titik_2.a_7, ...titik_2.color_3, //3165
+
+        ...titik_2.a_7, ...titik_2.color_3,
+        ...titik_2.k_5, ...titik_2.color_4,
+        ...titik_2.b_7, ...titik_2.color_3, //3180
+
+        ...titik_2.b_7, ...titik_2.color_3,
+        ...titik_2.l_5, ...titik_2.color_4,
+        ...titik_2.c_7, ...titik_2.color_3, //3195
+
+        ...titik_2.c_7, ...titik_2.color_3,
+        ...titik_2.m_5, ...titik_2.color_4,
+        ...titik_2.d_7, ...titik_2.color_3, //3210
+
+        ...titik_2.d_7, ...titik_2.color_3,
+        ...titik_2.n_5, ...titik_2.color_4,
+        ...titik_2.e_7, ...titik_2.color_3, //3225
+
+        ...titik_2.e_7, ...titik_2.color_3,
+        ...titik_2.o_5, ...titik_2.color_4,
+        ...titik_2.f_7, ...titik_2.color_3, //3240
+
+        ...titik_2.f_7, ...titik_2.color_3,
+        ...titik_2.p_5, ...titik_2.color_4,
+        ...titik_2.g_7, ...titik_2.color_3, //3255
+
+        ...titik_2.g_7, ...titik_2.color_3,
+        ...titik_2.q_5, ...titik_2.color_4,
+        ...titik_2.h_7, ...titik_2.color_3, //3270
+
+        ...titik_2.h_7, ...titik_2.color_3,
+        ...titik_2.r_5, ...titik_2.color_4,
+        ...titik_2.i_7, ...titik_2.color_3, //3285
+
+        ...titik_2.i_7, ...titik_2.color_3,
+        ...titik_2.s_5, ...titik_2.color_4,
+        ...titik_2.j_7, ...titik_2.color_3, //3300
+
+        ...titik_2.j_7, ...titik_2.color_3,
+        ...titik_2.t_5, ...titik_2.color_4,
+        ...titik_2.u_5, ...titik_2.color_3, //3315
+
+        ...titik_2.g_4, ...titik_2.color_4,
+        ...titik_2.v_5, ...titik_2.color_3,
+        ...titik_2.h_4, ...titik_2.color_4, //3330
+
+        ...titik_2.h_4, ...titik_2.color_4,
+        ...titik_2.w_5, ...titik_2.color_3,
+        ...titik_2.i_4, ...titik_2.color_4, //3345
+
+        ...titik_2.i_4, ...titik_2.color_4,
+        ...titik_2.z_5, ...titik_2.color_3,
+        ...titik_2.j_4, ...titik_2.color_4, //3360
+
+        ...titik_2.j_4, ...titik_2.color_4,
+        ...titik_2.a_6, ...titik_2.color_3,
+        ...titik_2.k_4, ...titik_2.color_4, //3375
+
+        ...titik_2.k_4, ...titik_2.color_4,
+        ...titik_2.b_6, ...titik_2.color_3,
+        ...titik_2.l_4, ...titik_2.color_4, //3390
+
+        ...titik_2.l_4, ...titik_2.color_4,
+        ...titik_2.c_6, ...titik_2.color_3,
+        ...titik_2.m_4, ...titik_2.color_4, //3405
+
+        ...titik_2.m_4, ...titik_2.color_4,
+        ...titik_2.d_6, ...titik_2.color_3,
+        ...titik_2.n_4, ...titik_2.color_4, //3420
+
+        ...titik_2.n_4, ...titik_2.color_4,
+        ...titik_2.e_6, ...titik_2.color_3,
+        ...titik_2.o_4, ...titik_2.color_4, //3435
+
+        ...titik_2.o_4, ...titik_2.color_4,
+        ...titik_2.f_6, ...titik_2.color_3,
+        ...titik_2.p_4, ...titik_2.color_4, //3450
+
+        ...titik_2.p_4, ...titik_2.color_4,
+        ...titik_2.g_6, ...titik_2.color_3,
+        ...titik_2.q_4, ...titik_2.color_4, //3465
+
+        ...titik_2.q_4, ...titik_2.color_4,
+        ...titik_2.h_6, ...titik_2.color_3,
+        ...titik_2.r_4, ...titik_2.color_4, //3480
+
+        ...titik_2.r_4, ...titik_2.color_4,
+        ...titik_2.i_6, ...titik_2.color_3,
+        ...titik_2.s_4, ...titik_2.color_4, //3495
+
+        ...titik_2.s_4, ...titik_2.color_4,
+        ...titik_2.j_6, ...titik_2.color_3,
+        ...titik_2.t_4, ...titik_2.color_4, //3510
+
+        ...titik_2.t_4, ...titik_2.color_4,
+        ...titik_2.k_6, ...titik_2.color_3,
+        ...titik_2.u_4, ...titik_2.color_4, //3525
+
+        ...titik_2.u_4, ...titik_2.color_4,
+        ...titik_2.l_6, ...titik_2.color_3,
+        ...titik_2.v_4, ...titik_2.color_4, //3540
+
+        ...titik_2.v_4, ...titik_2.color_4,
+        ...titik_2.m_6, ...titik_2.color_3,
+        ...titik_2.w_4, ...titik_2.color_4, //3555
+
+        ...titik_2.w_4, ...titik_2.color_4,
+        ...titik_2.n_6, ...titik_2.color_3,
+        ...titik_2.z_4, ...titik_2.color_4, //3570
+
+        ...titik_2.z_4, ...titik_2.color_4,
+        ...titik_2.o_6, ...titik_2.color_3,
+        ...titik_2.a_5, ...titik_2.color_4, //3585
+
+        ...titik_2.a_5, ...titik_2.color_4,
+        ...titik_2.p_6, ...titik_2.color_3,
+        ...titik_2.b_5, ...titik_2.color_4, //3600
+
+        ...titik_2.b_5, ...titik_2.color_4,
+        ...titik_2.q_6, ...titik_2.color_3,
+        ...titik_2.c_5, ...titik_2.color_4, //3615
+
+        ...titik_2.c_5, ...titik_2.color_4,
+        ...titik_2.r_6, ...titik_2.color_3,
+        ...titik_2.d_5, ...titik_2.color_4, //3630
+
+        ...titik_2.d_5, ...titik_2.color_4,
+        ...titik_2.s_6, ...titik_2.color_3,
+        ...titik_2.e_5, ...titik_2.color_4, //3645
+
+        ...titik_2.e_5, ...titik_2.color_4,
+        ...titik_2.t_6, ...titik_2.color_3,
+        ...titik_2.f_5, ...titik_2.color_4, //3660
+
+        ...titik_2.f_5, ...titik_2.color_4,
+        ...titik_2.u_6, ...titik_2.color_3,
+        ...titik_2.g_5, ...titik_2.color_4, //3675
+
+        ...titik_2.g_5, ...titik_2.color_4,
+        ...titik_2.v_6, ...titik_2.color_3,
+        ...titik_2.h_5, ...titik_2.color_4, //3690
+
+        ...titik_2.h_5, ...titik_2.color_4,
+        ...titik_2.w_6, ...titik_2.color_3,
+        ...titik_2.i_5, ...titik_2.color_4, //3705
+
+        ...titik_2.i_5, ...titik_2.color_4,
+        ...titik_2.z_6, ...titik_2.color_3,
+        ...titik_2.j_5, ...titik_2.color_4, //3720
+
+        ...titik_2.j_5, ...titik_2.color_4,
+        ...titik_2.a_7, ...titik_2.color_3,
+        ...titik_2.k_5, ...titik_2.color_4, //3735
+
+        ...titik_2.k_5, ...titik_2.color_4,
+        ...titik_2.b_7, ...titik_2.color_3,
+        ...titik_2.l_5, ...titik_2.color_4, //3750
+
+        ...titik_2.l_5, ...titik_2.color_4,
+        ...titik_2.c_7, ...titik_2.color_3,
+        ...titik_2.m_5, ...titik_2.color_4, //3765
+
+        ...titik_2.m_5, ...titik_2.color_4,
+        ...titik_2.d_7, ...titik_2.color_3,
+        ...titik_2.n_5, ...titik_2.color_4, //3780
+
+        ...titik_2.n_5, ...titik_2.color_4,
+        ...titik_2.e_7, ...titik_2.color_3,
+        ...titik_2.o_5, ...titik_2.color_4, //3795
+
+        ...titik_2.o_5, ...titik_2.color_4,
+        ...titik_2.f_7, ...titik_2.color_3,
+        ...titik_2.p_5, ...titik_2.color_4, //3810
+
+        ...titik_2.p_5, ...titik_2.color_4,
+        ...titik_2.g_7, ...titik_2.color_3,
+        ...titik_2.q_5, ...titik_2.color_4, //3825
+
+        ...titik_2.q_5, ...titik_2.color_4,
+        ...titik_2.h_7, ...titik_2.color_3,
+        ...titik_2.r_5, ...titik_2.color_4, //3840
+
+        ...titik_2.r_5, ...titik_2.color_4,
+        ...titik_2.i_7, ...titik_2.color_3,
+        ...titik_2.s_5, ...titik_2.color_4, //3855
+
+        ...titik_2.s_5, ...titik_2.color_4,
+        ...titik_2.j_7, ...titik_2.color_3,
+        ...titik_2.t_5, ...titik_2.color_4, //3870
+
+        ...titik_2.t_5, ...titik_2.color_4,
+        ...titik_2.g_4, ...titik_2.color_3,
+        ...titik_2.u_5, ...titik_2.color_4 //3885
+    ]
 
     var buffer = gl.createBuffer();
     gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
@@ -1473,10 +1335,9 @@ function main(){
 
     function moveVertices() {
 
-        if (vertices[4131] < -1.0 || vertices[3711] > 1.0) {
+        if (change < -0.73 || change > 0.77) {
             speed = speed * -1;
         }
-
         for (let i = 2161; i < vertices.length; i += 5) {
             vertices[i] = vertices[i] + speed;
         }
@@ -1500,3 +1361,4 @@ function main(){
     }
     requestAnimationFrame(render);
 }
+

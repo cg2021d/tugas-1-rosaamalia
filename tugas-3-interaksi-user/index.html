@@ -101,6 +101,7 @@
                 if(selectedObject[0][0].object.uuid === selectedObject[1][0].object.uuid){
                     console.log("objeknya sama");
                     selectedObject[0][0].object.material.emissive.setHex(originalColors[0]);
+                    selectedObject[0][0].object.rotation.z = 0;
                 } else if(originalColors[0] == (originalColors[1])) {
                     console.log("warnanya sama");
 
@@ -119,6 +120,7 @@
                 else {
                     console.log("warnanya beda")
                     selectedObject[0][0].object.material.emissive.setHex(originalColors[0]);
+                    selectedObject[0][0].object.rotation.z = 0;
 
                     currentScore += scoreWrong;
                     console.log(currentScore);
@@ -217,6 +219,7 @@
 
         if (selectedObject.length == 1) {
             selectedObject[0][0].object.material.emissive.setHex(elapsedTime % 0.5 >= 0.25 ? originalColors[0] : (originalColors[0] * 3));
+            selectedObject[0][0].object.rotation.z += 0.1;
         }
         
         renderer.render(scene, camera);

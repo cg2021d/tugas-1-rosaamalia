@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 4</title>
+    <script src="js/three.min.js"></script>
+    <script src="js/controls/OrbitControls.js"></script>
+
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>
+
+<script type="module">
+    import { GLTFLoader } from "https://threejsfundamentals.org/threejs/resources/threejs/r132/examples/jsm/loaders/GLTFLoader.js";
+
+    let scene, camera, renderer, controls, sphere, floor;
+    let count = 0, cubeCamera1, cubeCamera2, cubeRenderTarget1, cubeRenderTarget2;
+    
+    let createPanorama = function() {
+        const texture = new THREE.TextureLoader().load('./assets/img/background.jpg');
+        
+        let material =  new THREE.MeshBasicMaterial({map: texture, side: THREE.DoubleSide});         
+        let geometry = new THREE.SphereGeometry(5, 100, 100);
+       
+        sphere = new THREE.Mesh(geometry, material); 
+        scene.add(sphere); 
+    };
+
+    let createFloor = function() {
+        const floorMaterial = new THREE.MeshPhongMaterial({
+            side: THREE.DoubleSide,
+            map: new THREE.TextureLoader().load("./assets/img/snow.jpg"),
+        });
+
+        const floor = new THREE.Mesh(
+            new THREE.PlaneGeometry(5, 5, 100, 100),
+            floorMaterial
+        );
+        floor.receiveShadow = true;
+        floor.rotation.x = -Math.PI / 2;
+        floor.position.set(0, -1, 0);
+        scene.add(floor);
+    };
+
+    let snowman = function() {
+        const snowman = new GLTFLoader();
+        snowman.load("./assets/snowman/scene.gtlf", (gltf) => {
+            gltf.scene.traverse(function (node) {
+            if (node.isMesh) {
+                node.castShadow = true;
+                node.receiveShadow = true;
+                node.position.set(0, -1, 0);
+                node.scale.set(5, 4, 5);
+            }
+            });
+            scene.add(gltf.scene);
+        });
+    };
+
+    let reflection = function() {
+        cubeRenderTarget1 = new THREE.WebGLCubeRenderTarget(256, {
+            format: THREE.RGBFormat,
+            generateMipmaps: true,
+            minFilter: THREE.LinearMipmapLinearFilter,
+            encoding: THREE.sRGBEncoding,
+        });
+
+        cubeCamera1 = new THREE.CubeCamera(1, 1000, cubeRenderTarget1);
+
+        cubeRenderTarget2 = new THREE.WebGLCubeRenderTarget(256, {
+            format: THREE.RGBFormat,
+            generateMipmaps: true,
+            minFilter: THREE.LinearMipmapLinearFilter,
+            encoding: THREE.sRGBEncoding,
+        });
+
+        cubeCamera2 = new THREE.CubeCamera(1, 1000, cubeRenderTarget2);
+
+        const refGeometry = new THREE.SphereGeometry(0.5, 32, 32);
+        const refMaterial = new THREE.MeshBasicMaterial({
+            envMap: cubeRenderTarget2.texture,
+            combine: THREE.MultiplyOperation,
+            reflectivity: 1,
+        });
+
+        const reflective = new THREE.Mesh(refGeometry, refMaterial);
+
+        reflective.castShadow = true;
+        reflective.receiveShadow = true;
+
+        reflective.position.set(0, 2, -2);
+        scene.add(reflective);
+    }
+
+    
+    // set up the environment - 
+    // initiallize scene, camera, objects and renderer
+    let init = function() {
+        // create the scene
+        scene = new THREE.Scene();
+        scene.background = new THREE.Color(0xfffff);
+        scene.fog = new THREE.Fog(0xffffff, 1, 100);
+        
+        // create an locate the camera
+        camera = new THREE.PerspectiveCamera(70, 
+                        window.innerWidth / window.innerHeight, 
+                        1, 1000);
+        camera.position.set(3, 0, 3);
+
+        // pencahayaan
+        const ambientLight = new THREE.AmbientLight(0xfffff, 0.6);
+        scene.add(ambientLight);
+
+        const directionalLight = new THREE.DirectionalLight(0xfffff, 0.8);
+        directionalLight.position.set(-3, 5, -3);
+        directionalLight.castShadow = true;
+        scene.add(directionalLight);
+				
+        createPanorama();
+        createFloor();
+        snowman();
+        reflection();
+        
+        // create the renderer   
+        renderer = new THREE.WebGLRenderer();   
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        // control
+        controls = new THREE.OrbitControls( camera, renderer.domElement );
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.25;
+        controls.enableZoom = true;
+    };
+
+    let mainLoop = function() { 
+        sphere.rotation.y += 0.005;
+
+        if (count % 2 === 0) {
+        cubeCamera1.update(renderer, scene);
+        } else {
+        cubeCamera2.update(renderer, scene);
+        }
+
+        count++;
+
+        renderer.render(scene, camera);
+        controls.update();        
+        window.requestAnimationFrame(mainLoop);
+    };
+
+    init();
+    mainLoop();
+</script>
